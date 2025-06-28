@@ -33,23 +33,25 @@ It sets up the generated code, installs dependencies, starts a live preview serv
 
 
 
-Frontend (React app: 3000)
+## Frontend (React app: 3000)
     |
     └── POST /generate
        
 
 
-Backend (Express: 5000)
+## Backend (Express: 5000)
     |
-    ├── Calls Gemini API -> Generates code files
-    |
-    ├── Writes files to generated-site/
-    |
-    ├── Runs npm install in generated-site/
-    |
-    ├── Starts Vite server (5173)
-    |
-    └── Serves ZIP / fallback preview if needed
+    ├── Calls Gemini API -> Generates code files  
+    |  
+    ├── Writes files to generated-site/  
+    |  
+    ├── Runs npm install in generated-site/  
+    |  
+    ├── Starts Vite server (5173)  
+    |  
+    └── Serves ZIP / fallback preview if needed  
+      
+      
 
 
 **Flow:**  
