@@ -51,7 +51,7 @@ It sets up the generated code, installs dependencies, starts a live preview serv
     |  
     └── Serves ZIP / fallback preview if needed  
       
-      
+
 
 
 **Flow:**  
@@ -61,3 +61,7 @@ It sets up the generated code, installs dependencies, starts a live preview serv
 4️⃣ Files are written → dependencies installed → Vite started  
 5️⃣ React app polls Vite and shows the live preview  
 6️⃣ Optionally, user downloads the ZIP 
+  
+![Intial Window](basic_page_one.png)  
+![Final Output](final_output.png)  
+![Termial Output](termial.png)
